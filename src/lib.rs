@@ -8,7 +8,7 @@ impl Triangle {
             Some(Triangle { sides })
         }
     }
-    
+
     pub fn is_equilateral(&self) -> bool {
         self.sides[0] == self.sides[1] && self.sides[1] == self.sides[2]
     }
